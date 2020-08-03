@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{CDCA6C21-A427-46CA-AB42-6348AE9525FB}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{7B4BC88F-60B4-46D7-AFE2-570ABA41842E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{9C11A743-12FB-4B49-B39F-BA727CCA7737}">
+								<Image FileName="-1377094888" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{AB67E324-C4BB-4BD5-A4FC-D8E492A17FE1}">
+										<Image FileName="-1377094888" Left="486" Top="0" Right="1128" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{46B29E6F-6B40-487A-B2DE-5EF9CCED74BA}">
+												<Image FileName="-1377094888" Left="488" Top="0" Right="1128" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{40876F45-E283-4FD8-9EF8-151DD5C9B69D}">
+														<Image FileName="-1377094888" Left="488" Top="0" Right="1128" Bottom="40" />
+														<TypeInfo Item0="{652FF866-50BD-4DAE-861F-9FDABDA890BC}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{4B423B90-9390-4624-9A2F-5AF145D98395}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLogin" Key="{792AAC84-FBFB-480E-88C8-F1C0823FB313}">
+								<Image FileName="-414136658" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/login.htm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUsername" Key="{2DF65796-C543-4D18-8E4D-6EA7223D01D9}" ExtendedFind="True">
+										<Image FileName="1782048622" Left="219" Top="282" Right="663" Bottom="322" />
+										<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="username" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{30406FEA-BC3A-4D6A-BBC3-35F8E0452136}" ExtendedFind="True">
+										<Image FileName="-2019433654" Left="683" Top="282" Right="1127" Bottom="322" />
+										<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="PasswordBox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="password" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonLogIn" Key="{B7B8EECF-65BA-4BDB-AD15-78D3B4DB1253}" ExtendedFind="True">
+										<Image FileName="686124921" Left="1000" Top="506" Right="1127" Bottom="543" />
+										<TypeInfo Item0="{BF7A17EC-BD72-4938-A2EB-DBFF66AB3AEB}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="SubmitButton" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="loginButton" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="formLoginForm" Key="{9F409045-DD97-40D9-BADC-A201418C2745}" ExtendedFind="True">
+										<Image FileName="1782048622" Left="198" Top="183" Right="1168" Bottom="619" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="login-form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="fieldsetLogin" Key="{D276A144-C7DC-4735-BA81-A6019118E73F}">
+												<Image FileName="1782048622" Left="210" Top="193" Right="1156" Bottom="609" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Fieldset" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnodeRegistrationDesk" Key="{B2287C99-8EFB-4CBC-BA71-D19C4B102D20}" ExtendedFind="True">
+														<Image FileName="-1779759030" Left="788" Top="445" Right="1038" Bottom="480" />
+														<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="TextNode" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="Registration Desk" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="header" Key="{D6FD4755-D3F3-4247-AFEC-FB9B1F2CB63E}" ExtendedFind="True">
+										<Image FileName="1794491453" Left="198" Top="113" Right="1168" Bottom="163" />
+										<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonFindPatientRecord" Key="{F451F84C-C0BC-43F0-B3D5-85CBBFDB0A7F}" ExtendedFind="True">
+										<Image FileName="1686957937" Left="208" Top="238" Right="374" Bottom="368" />
+										<TypeInfo Item0="{5E8932F4-3F9F-4523-994C-6F83C40A41BE}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="coreapps-activeVisitsHomepageLink-coreapps-activeVisitsHomepageLink-extension" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonCaptureVitals" Key="{FABB477E-0BD0-481E-8838-69225D0355A8}" ExtendedFind="True">
+										<Image FileName="1686957937" Left="778" Top="238" Right="944" Bottom="368" />
+										<TypeInfo Item0="{5E8932F4-3F9F-4523-994C-6F83C40A41BE}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="referenceapplication-vitals-referenceapplication-vitals-extension" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonRegisterAPatient" Key="{00941CDF-4B84-4D00-ACB4-5A84F5FA8853}" ExtendedFind="True">
+										<Image FileName="825662242" Left="588" Top="238" Right="754" Bottom="368" />
+										<TypeInfo Item0="{5E8932F4-3F9F-4523-994C-6F83C40A41BE}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="referenceapplication-registrationapp-registerPatient-homepageLink-referenceapplication-registrationapp-registerPatient-homepageLink-extension" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="nav" Key="{7471098B-EFA8-4A87-845D-D7672E8E2DA8}" ExtendedFind="True">
+										<Image FileName="-1866646381" Left="183" Top="113" Right="1183" Bottom="164" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Nav" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textboxGivenRequired" Key="{21A21345-EB6A-4C75-8E42-55E2057B9867}" ExtendedFind="True">
+										<Image FileName="-81440769" Left="438" Top="356" Right="629" Bottom="390" />
+										<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="fr8312-field" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textboxMiddle" Key="{32D76D8F-5B7D-4444-971B-85C8CEF6EED2}" ExtendedFind="True">
+										<Image FileName="-890156767" Left="639" Top="355" Right="830" Bottom="389" />
+										<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="fr855-field" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="formRegistration" Key="{C29FEE8D-4E79-443E-8CE7-BF2E54F91DAA}" ExtendedFind="True">
+										<Image FileName="-81440769" Left="198" Top="254" Right="1168" Bottom="599" />
+										<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="registration" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxDay" Key="{9C0559FB-B06A-4BF3-9E52-056EBBEC7DF0}" ExtendedFind="True">
+												<Image FileName="-1418191476" Left="438" Top="355" Right="509" Bottom="389" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateDay-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectMonth" Key="{9397EA04-65DA-41B6-BD25-CF17FECCD157}" ExtendedFind="True">
+												<Image FileName="1430649097" Left="519" Top="355" Right="719" Bottom="391" />
+												<TypeInfo Item0="{483A0385-B696-42B0-A099-1AEF6E636D86}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateMonth-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxYear" Key="{B8132F51-1B58-4987-B187-A41C1CF3D3C3}" ExtendedFind="True">
+												<Image FileName="1498585437" Left="729" Top="355" Right="800" Bottom="389" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateYear-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxAddress1" Key="{4F08A471-DB79-4CF5-9FB2-6FF331E24598}" ExtendedFind="True">
+												<Image FileName="-2072122281" Left="438" Top="312" Right="789" Bottom="346" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="address1" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxAddress2" Key="{A2ECE43C-64B9-453E-92D5-E198462D9490}" ExtendedFind="True">
+												<Image FileName="686381165" Left="438" Top="395" Right="789" Bottom="429" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="address2" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxCityvillage" Key="{27663A10-D0D5-44EA-AF37-C856B1611068}" ExtendedFind="True">
+												<Image FileName="-1194622533" Left="438" Top="478" Right="549" Bottom="512" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="cityVillage" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxStateprovince" Key="{DDF2F413-151E-4B6B-9A2A-8B1EF470B0EB}" ExtendedFind="True">
+												<Image FileName="1374006751" Left="559" Top="478" Right="670" Bottom="512" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="stateProvince" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxCountry" Key="{EF9867F0-2195-49F8-991C-0005AE5BFA6A}" ExtendedFind="True">
+												<Image FileName="-110372957" Left="699" Top="478" Right="810" Bottom="512" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="country" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textnode" Key="{933C4034-1920-4B5F-846E-3BCB28642535}" ExtendedFind="True">
+												<Image FileName="-1292372275" Left="203" Top="460" Right="344" Bottom="494" />
+												<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Phone Number" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textnode2" Key="{0F19648D-910C-4A14-9C27-72207DE7F043}" ExtendedFind="True">
+												<Image FileName="954416703" Left="203" Top="529" Right="296" Bottom="563" />
+												<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Relatives" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectRelationshipType" Key="{EBFC4931-307B-4F51-B43D-5B8F44BFDA9A}" ExtendedFind="True">
+												<Image FileName="-2001644143" Left="438" Top="312" Right="663" Bottom="348" />
+												<TypeInfo Item0="{483A0385-B696-42B0-A099-1AEF6E636D86}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="relationship_type" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxFamilyNameRequired" Key="{71C2F5B4-C8DF-4762-84C2-453B25005979}" ExtendedFind="True">
+												<Image FileName="-1077556784" Left="840" Top="356" Right="1031" Bottom="390" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="fr6671-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxPostalcode" Key="{1E657D99-8A22-46C7-BCB3-A23EA82285C9}" ExtendedFind="True">
+												<Image FileName="-1062245471" Left="820" Top="478" Right="931" Bottom="512" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="postalCode" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxWhatSThePatientPhoneNumbe" Key="{B4C83C48-714A-49FD-8177-BF45E3BF3920}" ExtendedFind="True">
+												<Image FileName="332378551" Left="438" Top="312" Right="629" Bottom="346" />
+												<TypeInfo Item0="{1A1922BA-D818-44F6-9328-BAEC71FA5BB9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="fr7686-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectRequired" Key="{873427D5-92CE-4D44-AEE2-79577CDFBA38}" ExtendedFind="True">
+												<Image FileName="837944642" Left="438" Top="348" Right="638" Bottom="406" />
+												<TypeInfo Item0="{5A39C973-489F-49CA-98FB-1829043D316F}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="gender-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitbuttonConfirm" Key="{390DC95E-810C-4E17-A2B8-DC5C25801C17}" ExtendedFind="True">
+												<Image FileName="-612774259" Left="1026" Top="499" Right="1128" Bottom="536" />
+												<TypeInfo Item0="{6F52252E-A4BA-4FAE-9F82-9F4F596B86DA}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="SubmitButton" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="submit" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textnode" Key="{41FC0457-E9F7-434F-9FDA-CA3F4A955AFD}" ExtendedFind="True">
+										<Image FileName="-521631946" Left="207" Top="168" Right="317" Bottom="188" />
+										<TypeInfo Item0="{B3EB65D3-FA7F-4E20-866C-7773D689A39A}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="testi test123" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{71844C3B-B94B-45A9-8DA2-56DB00E2F69E}">
+								<Image FileName="-1953260224" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{1B90194E-CB9B-4CE1-96C7-DE9F51929DF3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{7B4BC88F-60B4-46D7-AFE2-570ABA41842E}">
+			<Child Name="wndShell_TrayWnd" Owner="{9C11A743-12FB-4B49-B39F-BA727CCA7737}">
+				<Child Name="ReBarWindow32" Owner="{AB67E324-C4BB-4BD5-A4FC-D8E492A17FE1}">
+					<Child Name="MSTaskSwWClass" Owner="{46B29E6F-6B40-487A-B2DE-5EF9CCED74BA}">
+						<Child Name="MSTaskListWClass" Owner="{40876F45-E283-4FD8-9EF8-151DD5C9B69D}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{4B423B90-9390-4624-9A2F-5AF145D98395}">
+			<Child Name="pageLogin" Owner="{792AAC84-FBFB-480E-88C8-F1C0823FB313}">
+				<Child Name="textboxUsername" Owner="{2DF65796-C543-4D18-8E4D-6EA7223D01D9}" />
+				<Child Name="passwordboxPassword" Owner="{30406FEA-BC3A-4D6A-BBC3-35F8E0452136}" />
+				<Child Name="buttonLogIn" Owner="{B7B8EECF-65BA-4BDB-AD15-78D3B4DB1253}" />
+				<Child Name="formLoginForm" Owner="{9F409045-DD97-40D9-BADC-A201418C2745}">
+					<Child Name="fieldsetLogin" Owner="{D276A144-C7DC-4735-BA81-A6019118E73F}">
+						<Child Name="textnodeRegistrationDesk" Owner="{B2287C99-8EFB-4CBC-BA71-D19C4B102D20}" />
+					</Child>
+				</Child>
+				<Child Name="header" Owner="{D6FD4755-D3F3-4247-AFEC-FB9B1F2CB63E}" />
+				<Child Name="buttonFindPatientRecord" Owner="{F451F84C-C0BC-43F0-B3D5-85CBBFDB0A7F}" />
+				<Child Name="buttonCaptureVitals" Owner="{FABB477E-0BD0-481E-8838-69225D0355A8}" />
+				<Child Name="buttonRegisterAPatient" Owner="{00941CDF-4B84-4D00-ACB4-5A84F5FA8853}" />
+				<Child Name="nav" Owner="{7471098B-EFA8-4A87-845D-D7672E8E2DA8}" />
+				<Child Name="textboxGivenRequired" Owner="{21A21345-EB6A-4C75-8E42-55E2057B9867}" />
+				<Child Name="textboxMiddle" Owner="{32D76D8F-5B7D-4444-971B-85C8CEF6EED2}" />
+				<Child Name="formRegistration" Owner="{C29FEE8D-4E79-443E-8CE7-BF2E54F91DAA}">
+					<Child Name="textboxDay" Owner="{9C0559FB-B06A-4BF3-9E52-056EBBEC7DF0}" />
+					<Child Name="selectMonth" Owner="{9397EA04-65DA-41B6-BD25-CF17FECCD157}" />
+					<Child Name="textboxYear" Owner="{B8132F51-1B58-4987-B187-A41C1CF3D3C3}" />
+					<Child Name="textboxAddress1" Owner="{4F08A471-DB79-4CF5-9FB2-6FF331E24598}" />
+					<Child Name="textboxAddress2" Owner="{A2ECE43C-64B9-453E-92D5-E198462D9490}" />
+					<Child Name="textboxCityvillage" Owner="{27663A10-D0D5-44EA-AF37-C856B1611068}" />
+					<Child Name="textboxStateprovince" Owner="{DDF2F413-151E-4B6B-9A2A-8B1EF470B0EB}" />
+					<Child Name="textboxCountry" Owner="{EF9867F0-2195-49F8-991C-0005AE5BFA6A}" />
+					<Child Name="textnode" Owner="{933C4034-1920-4B5F-846E-3BCB28642535}" />
+					<Child Name="textnode2" Owner="{0F19648D-910C-4A14-9C27-72207DE7F043}" />
+					<Child Name="selectRelationshipType" Owner="{EBFC4931-307B-4F51-B43D-5B8F44BFDA9A}" />
+					<Child Name="textboxFamilyNameRequired" Owner="{71C2F5B4-C8DF-4762-84C2-453B25005979}" />
+					<Child Name="textboxPostalcode" Owner="{1E657D99-8A22-46C7-BCB3-A23EA82285C9}" />
+					<Child Name="textboxWhatSThePatientPhoneNumbe" Owner="{B4C83C48-714A-49FD-8177-BF45E3BF3920}" />
+					<Child Name="selectRequired" Owner="{873427D5-92CE-4D44-AEE2-79577CDFBA38}" />
+					<Child Name="submitbuttonConfirm" Owner="{390DC95E-810C-4E17-A2B8-DC5C25801C17}" />
+				</Child>
+				<Child Name="textnode" Owner="{41FC0457-E9F7-434F-9FDA-CA3F4A955AFD}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{71844C3B-B94B-45A9-8DA2-56DB00E2F69E}" />
+		</Child>
+	</LogicalNodes>
+</Root>
