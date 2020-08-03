@@ -127,6 +127,20 @@
 														<Value Value="NavPanel" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="Print" Key="{3E8A9BF4-6DEE-47CE-9D6A-0B467160A63B}">
+														<Image FileName="-157908934" Left="9" Top="106" Right="191" Bottom="428" />
+														<TypeInfo Item0="{A18EBDEE-D1B1-4A97-9260-D6C733E91E06}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TAdvNavBarPanel" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -892,7 +906,9 @@
 			</Child>
 			<Child Name="formMain" Owner="{AA500554-DBAC-45E5-9F5B-F7956CCE44AA}">
 				<Child Name="panelNavagation" Owner="{4E9BFFFB-C948-4C57-96EE-6500E3E3E18F}">
-					<Child Name="NavPanel" Owner="{376F69D2-F8E9-475E-80C4-F2967278F45D}" />
+					<Child Name="NavPanel" Owner="{376F69D2-F8E9-475E-80C4-F2967278F45D}">
+						<Child Name="Print" Owner="{3E8A9BF4-6DEE-47CE-9D6A-0B467160A63B}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="formPatientEntry" Owner="{99C882B5-4D63-4A0F-914D-9209D420937C}">

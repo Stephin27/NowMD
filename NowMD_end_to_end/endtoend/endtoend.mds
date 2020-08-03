@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
 	<children>
+		<folder name="NewFolder1">
+			<child name="patient.xlsx" key="{BC581145-8FE3-40F2-AD1E-F26FA4829567}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\..\..\patient.xlsx" />
+			<child name="patient_csv.csv" key="{F1D951BB-A0DB-4885-8E64-664F094326A6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\..\..\patient_csv.csv" />
+		</folder>
 		<child name="Script" key="{294F0DC7-B3BA-4BFB-8884-C864EB04134E}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{94A98CAB-6D58-4CFC-A0EC-D261EB666A5C}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{466186D8-8CF7-4099-9105-E38163BC6043}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="NameMapping" key="{5B9BBC5D-B8B8-456D-B855-2442338F48D3}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Stores" key="{A42F8D2F-A46E-4C5A-9E51-A7D7CF2A9D23}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="AndroidGestureCollection" key="{ECF74304-416B-44DC-BAC9-08168DB00750}" type="Android Gesture Collection" typeId="{1C993555-DDEB-4830-848C-5C3CF963DBD1}" pluginName="Android Support" path="AndroidGestureCollection\AndroidGestureCollection.agc" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{60C2516D-68F3-49CA-919E-F12A52E28B9C}" version="14">
 		<children />
 	</testItems>
-	<variables key="{2510F76C-59A6-45BD-AC2D-F305F923DF73}" />
+	<variables key="{2510F76C-59A6-45BD-AC2D-F305F923DF73}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Var1" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\patient.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{D7EA4B22-BFEF-4058-83A1-60FCDE2B1EAD}">
 		<settingsVersion value="14.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

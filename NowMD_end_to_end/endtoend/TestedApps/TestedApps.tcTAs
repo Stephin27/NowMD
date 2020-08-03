@@ -3,5 +3,18 @@
 	<config nodeName="TestedApps" />
 	<testData />
 	<data />
-	<children />
+	<children>
+		<child key="{7213EE8E-ED65-4C8C-B90F-21F1E2B25361}">
+			<config nodeName="NowMDdemo" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\NowMD" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\NowMD" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\NowMD" />
+					<param name="Simple" fileName="NowMDdemo.exe" filePath="C:\Program Files (x86)\NowMD\" parameters="" workFolder="C:\Program Files (x86)\NowMD" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
 </Root>

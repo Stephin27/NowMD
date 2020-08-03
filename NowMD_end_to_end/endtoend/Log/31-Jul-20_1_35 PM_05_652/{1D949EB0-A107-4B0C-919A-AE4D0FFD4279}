@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage30_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094212963"/>
+					<Prp name="image file name" type="S" value="tcvi26349593710836303.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3372256134"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'88683' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edPostalCode&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663969676"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage26_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092476852"/>
+					<Prp name="image file name" type="S" value="tcvi26348051510836163.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371865741"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Kellie Bullock' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edLastName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663592361"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage28_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093518519"/>
+					<Prp name="image file name" type="S" value="tcvi26348946810836253.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.337202963"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Midwest City' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edCity&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663766435"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="stacktext" type="S" value="TC1()"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage29_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093865741"/>
+					<Prp name="image file name" type="S" value="tcvi26349332810836293.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3372107407"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'South Carolina' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;cbState&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663915509"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="774"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="345"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="366"/>
+					<Prp name="object left" type="I" value="653"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3087615741"/>
+					<Prp name="image file name" type="S" value="tcvi263438234108360.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="774"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="345"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="366"/>
+					<Prp name="object left" type="I" value="653"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3369049074"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'User' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formUserLogin&quot;).VCLObject(&quot;panelMain&quot;).VCLObject(&quot;panelLogin&quot;).VCLObject(&quot;edLoginName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5660746528"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092824074"/>
+					<Prp name="image file name" type="S" value="tcvi26348426510836201.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370870602"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'83657 East Christensen Ln.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edStreet1&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662658102"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{EC36296E-3E3E-4DEA-A2B7-B2D4E3500B49}"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094212963"/>
+					<Prp name="image file name" type="S" value="tcvi26349593710836301.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371104051"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'11780-6981' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edPostalCode&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.566282419"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage27_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092824074"/>
+					<Prp name="image file name" type="S" value="tcvi26348426510836203.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371933333"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'67970 South Cuba St.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edStreet1&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663688426"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094212963"/>
+					<Prp name="image file name" type="S" value="tcvi2634959371083630.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370559259"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'76485' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edPostalCode&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662258565"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092013889"/>
+					<Prp name="image file name" type="S" value="tcvi2634769061083612.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370072106"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Karina Stone' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edFirstName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5661795486"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5664305093"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage25_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092013889"/>
+					<Prp name="image file name" type="S" value="tcvi26347690610836123.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.337178912"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Kellie Bullock' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edFirstName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663523611"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="468"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="184"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="709"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="datetime" type="D" value="44043.3091203704"/>
+					<Prp name="image file name" type="S" value="tcvi263470265108366.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="468"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="184"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="709"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="datetime" type="D" value="44043.3369330903"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (58, 397) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formMain.panelNavagation.NavPanel&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formMain&quot;).VCLObject(&quot;panelNavagation&quot;).VCLObject(&quot;NavPanel&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5661009259"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093518519"/>
+					<Prp name="image file name" type="S" value="tcvi26348946810836251.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370999884"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Honolulu' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edCity&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662712616"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094560185"/>
+					<Prp name="image file name" type="S" value="tcvi2634989211083634.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370603009"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'simmons@tincidunt.edu' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edEmail&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662361921"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092013889"/>
+					<Prp name="image file name" type="S" value="tcvi26347690610836121.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370705208"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Inez Whitfield' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edFirstName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662443634"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092476852"/>
+					<Prp name="image file name" type="S" value="tcvi2634805151083616.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370144097"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Karina Stone' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edLastName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5661872685"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage19_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092476852"/>
+					<Prp name="image file name" type="S" value="tcvi26348051510836162.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371319097"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Nadine Bradley' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edLastName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663056597"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="81"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="83"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="79"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="94"/>
+					<Prp name="object left" type="I" value="52"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSubCenter.sbNew"/>
+					<Prp name="click point x" type="I" value="57"/>
+					<Prp name="datetime" type="D" value="44043.3091666667"/>
+					<Prp name="image file name" type="S" value="tcvi2634736251083611.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="86"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="83"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="79"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="94"/>
+					<Prp name="object left" type="I" value="52"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSubCenter.sbNew"/>
+					<Prp name="click point x" type="I" value="67"/>
+					<Prp name="datetime" type="D" value="44043.336977662"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="message" type="S" value="The text area was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed within the area containing the following text:&#xA;patient"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5661652894"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage21_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093518519"/>
+					<Prp name="image file name" type="S" value="tcvi26348946810836252.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371505324"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'El Cerrito' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edCity&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663231134"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092476852"/>
+					<Prp name="image file name" type="S" value="tcvi26348051510836161.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="212"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370784606"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Inez Whitfield' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edLastName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edLastName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662528356"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files (x86)\NowMD\NowMDdemo.exe&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 13200."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5660402894"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094560185"/>
+					<Prp name="image file name" type="S" value="tcvi26349892110836341.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371165625"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'hobbs@cras.us' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edEmail&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.566290081"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093518519"/>
+					<Prp name="image file name" type="S" value="tcvi2634894681083625.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.337034456"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Kingsport' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edCity&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edCity&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662061806"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093865741"/>
+					<Prp name="image file name" type="S" value="tcvi26349332810836291.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371053819"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Iowa' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;cbState&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662762384"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092824074"/>
+					<Prp name="image file name" type="S" value="tcvi26348426510836202.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.337139838"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'62532 East Lowery St.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edStreet1&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.56631625"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage24_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094560185"/>
+					<Prp name="image file name" type="S" value="tcvi26349892110836342.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="392"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371708912"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'shepard@pede.us' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edEmail&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663446759"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="stacktext" type="S" value="TC1()"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092013889"/>
+					<Prp name="image file name" type="S" value="tcvi26347690610836122.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="145"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371245949"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Nadine Bradley' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edFirstName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edFirstName&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662977546"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage22_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093865741"/>
+					<Prp name="image file name" type="S" value="tcvi26349332810836292.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371572569"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Connecticut' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;cbState&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663310764"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="774"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="373"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="394"/>
+					<Prp name="object left" type="I" value="653"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3089583333"/>
+					<Prp name="image file name" type="S" value="tcvi263455671108365.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="774"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="373"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="394"/>
+					<Prp name="object left" type="I" value="653"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3369105787"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'123[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formUserLogin&quot;).VCLObject(&quot;panelMain&quot;).VCLObject(&quot;panelLogin&quot;).VCLObject(&quot;edPassword&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5660927199"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="message" type="S" value="The operation was interrupted by the user."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.edEmail&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edEmail&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5664298727"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3093865741"/>
+					<Prp name="image file name" type="S" value="tcvi2634933281083629.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="297"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370413194"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'South Dakota' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.cbState&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;cbState&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5662213657"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3092824074"/>
+					<Prp name="image file name" type="S" value="tcvi2634842651083620.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3370222685"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'45201 East Angola St.' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edStreet1&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edStreet1&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5661996065"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage23_Dif.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-50"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-318"/>
+					<Prp name="datetime" type="D" value="44043.3094212963"/>
+					<Prp name="image file name" type="S" value="tcvi26349593710836302.png"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="237"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="363"/>
+					<Prp name="object left" type="I" value="160"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44043.3371653357"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'98964' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formPatientEntry.panelFields.PageControl.tsAddress.panelName.gbName.framePatientAddress.edPostalCode&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formPatientEntry&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsAddress&quot;).VCLObject(&quot;panelName&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;framePatientAddress&quot;).VCLObject(&quot;edPostalCode&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44043.5663367361"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
