@@ -4,5 +4,6 @@
 		<child name="TC1" key="{EC36296E-3E3E-4DEA-A2B7-B2D4E3500B49}" path="TC1.tcKDTest" />
 		<child name="TC2" key="{EB4ED54E-8D94-4A01-98DF-D79757781A41}" path="TC2.tcKDTest" />
 		<child name="TC3" key="{0BF4F5A8-2F4E-4A26-BABD-27166B5A9F59}" path="TC3.tcKDTest" />
+		<child name="TC4" key="{9FAEABE5-83D8-4AF7-A1A3-6AA0143E36B2}" path="TC4.tcKDTest" />
 	</children>
 </Root>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{DC7B881E-ABC9-4BB5-B0A5-353556329603}">
-	<children />
+	<children>
+		<child name="endtoend" key="{EA785F69-F80E-41FE-BE2F-7B5B1656FC4B}" path="endtoend\endtoend.mds" />
+	</children>
 	<testItems key="{E2038E30-1FCE-4940-9516-F64F50E5EE9E}">
-		<children />
+		<children>
+			<testItem key="{EA785F69-F80E-41FE-BE2F-7B5B1656FC4B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
 	</testItems>
 	<variables key="{7E04B4ED-C6D8-4209-8945-6B78D581A82F}" />
 	<analysis key="{360979F8-284A-4DCE-9C7F-13CBFE9269F6}" />
-	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
 	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">

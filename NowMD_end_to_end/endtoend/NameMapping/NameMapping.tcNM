@@ -887,6 +887,292 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{AC9D852E-5DAB-4C0C-A394-A014CB60AD94}">
+								<Image FileName="138591755" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{51A5FA26-B816-4556-8012-9948BCD90D97}">
+										<Image FileName="138591755" Left="486" Top="0" Right="1128" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{6BFD1066-52B7-4463-87C8-6CDA2E95A15B}">
+												<Image FileName="138591755" Left="488" Top="0" Right="1128" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{7F837B88-1806-433C-AF57-AAC292AAAB78}">
+														<Image FileName="138591755" Left="488" Top="0" Right="1128" Bottom="40" />
+														<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{48308A66-0D63-490F-8CE9-6D91C646F1B9}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLogin" Key="{AC1610C7-AF28-4FBA-99BA-00A6C4F07ECB}">
+								<Image FileName="-1328886755" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/login.htm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUsername" Key="{2E26126F-901A-4144-88FA-3005F552A8D6}" ExtendedFind="True">
+										<Image FileName="-1328886755" Left="219" Top="282" Right="663" Bottom="322" />
+										<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="username" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="formLoginForm" Key="{42E62CA4-C6E0-4204-8B08-E0547ABB0FE6}" ExtendedFind="True">
+										<Image FileName="-1328886755" Left="198" Top="183" Right="1168" Bottom="619" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="login-form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="fieldsetLogin" Key="{6AC1DFED-661C-4746-9858-1812F62588AF}">
+												<Image FileName="-1328886755" Left="210" Top="193" Right="1156" Bottom="609" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Fieldset" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnodeRegistrationDesk" Key="{82DC88B9-F216-401A-9AFA-6E02A95FA475}" ExtendedFind="True">
+														<Image FileName="2042676285" Left="788" Top="445" Right="1038" Bottom="480" />
+														<TypeInfo Item0="{3D167313-86D6-4DBB-9A62-368F370232A2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="TextNode" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="Registration Desk" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="passwordboxPassword" Key="{C3BEE06E-7F95-48C3-9611-99BE37F5BA7D}" ExtendedFind="True">
+														<Image FileName="-725356901" Left="683" Top="282" Right="1127" Bottom="322" />
+														<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="PasswordBox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="password" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="buttonLogIn" Key="{8BE29430-27DC-40B0-BAAA-1364181040CE}" ExtendedFind="True">
+														<Image FileName="1453758404" Left="1000" Top="506" Right="1127" Bottom="543" />
+														<TypeInfo Item0="{CCAE5D8A-70B0-436E-AA74-E462021B4042}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="SubmitButton" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="loginButton" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRegisterpatient" Key="{3A9DA539-8F15-4820-924B-3C2B8A9DE754}">
+								<Image FileName="-1328886755" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/registrationapp/registerPatient.page*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxFamilyNameRequired" Key="{34916DF8-4595-41C7-9FFE-540E70AB6E3B}" ExtendedFind="True">
+										<Image FileName="1832840657" Left="840" Top="356" Right="1031" Bottom="390" />
+										<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="fr3306-field" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="formRegistration" Key="{A4FA1894-B457-4903-B578-96DAB963C4C2}" ExtendedFind="True">
+										<Image FileName="-1568983370" Left="198" Top="254" Right="1168" Bottom="457" />
+										<TypeInfo Item0="{3D167313-86D6-4DBB-9A62-368F370232A2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="registration" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxDay" Key="{9A855CD0-880A-4B32-B6F9-53BD28A2AE8D}" ExtendedFind="True">
+												<Image FileName="550331654" Left="438" Top="355" Right="509" Bottom="389" />
+												<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateDay-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectMonth" Key="{53131A2A-B4C1-4581-92B4-19AD80F37354}" ExtendedFind="True">
+												<Image FileName="1707153721" Left="519" Top="355" Right="719" Bottom="391" />
+												<TypeInfo Item0="{8778BBA3-CAEC-4894-8203-BFFE73B0CCF1}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateMonth-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxGivenRequired" Key="{AF618EE0-CDD6-46B7-AF72-3AC6C5205F71}" ExtendedFind="True">
+												<Image FileName="-1568983370" Left="438" Top="356" Right="629" Bottom="390" />
+												<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="fr7874-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxYear" Key="{F304BE5A-34C4-4CEA-BD1D-F3EF8FC146DC}" ExtendedFind="True">
+												<Image FileName="-1102441222" Left="729" Top="355" Right="800" Bottom="389" />
+												<TypeInfo Item0="{5F8D3A30-C826-424C-A6C8-49133EEB1F27}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="birthdateYear-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="selectRequired" Key="{7D5C718E-ADFC-49C6-8F03-B01D2B533568}" ExtendedFind="True">
+												<Image FileName="-299910596" Left="438" Top="348" Right="638" Bottom="406" />
+												<TypeInfo Item0="{E9521D30-094C-4215-B3F7-5E3D270A1148}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Select" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="gender-field" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitbuttonConfirm" Key="{0AFC1392-F9EE-491A-BAAA-118D343CCC5D}" ExtendedFind="True">
+												<Image FileName="1053611861" Left="1026" Top="394" Right="1128" Bottom="431" />
+												<TypeInfo Item0="{C963D0B1-35BB-4C72-A2C1-30CA00D71DCA}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="SubmitButton" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="submit" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHome" Key="{73010FB6-605B-4564-9EE0-45FA8E06880A}">
+								<Image FileName="-1328886755" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/referenceapplication/home.page" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonRegisterAPatient" Key="{9DE3C490-4E85-42AD-8952-10A1F48B4B15}" ExtendedFind="True">
+										<Image FileName="1127985483" Left="208" Top="388" Right="374" Bottom="518" />
+										<TypeInfo Item0="{CF23E2E9-8523-4100-B123-9CD535538DA7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="registrationapp-basicRegisterPatient-homepageLink-registrationapp-basicRegisterPatient-homepageLink-extension" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageIndex" Key="{102B8528-1757-4A48-A3C0-204E4F1C7966}">
+								<Image FileName="-1328886755" Left="0" Top="103" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{300B47A4-D570-4FE1-A3F5-11E9E4DB12DE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/index.htm" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -997,6 +1283,40 @@
 					<Child Name="FolderView" Owner="{001EA133-0D8E-4158-87B5-7D42D6A7C023}" />
 				</Child>
 			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{AC9D852E-5DAB-4C0C-A394-A014CB60AD94}">
+				<Child Name="ReBarWindow32" Owner="{51A5FA26-B816-4556-8012-9948BCD90D97}">
+					<Child Name="MSTaskSwWClass" Owner="{6BFD1066-52B7-4463-87C8-6CDA2E95A15B}">
+						<Child Name="MSTaskListWClass" Owner="{7F837B88-1806-433C-AF57-AAC292AAAB78}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{48308A66-0D63-490F-8CE9-6D91C646F1B9}">
+			<Child Name="pageLogin" Owner="{AC1610C7-AF28-4FBA-99BA-00A6C4F07ECB}">
+				<Child Name="textboxUsername" Owner="{2E26126F-901A-4144-88FA-3005F552A8D6}" />
+				<Child Name="formLoginForm" Owner="{42E62CA4-C6E0-4204-8B08-E0547ABB0FE6}">
+					<Child Name="fieldsetLogin" Owner="{6AC1DFED-661C-4746-9858-1812F62588AF}">
+						<Child Name="textnodeRegistrationDesk" Owner="{82DC88B9-F216-401A-9AFA-6E02A95FA475}" />
+						<Child Name="passwordboxPassword" Owner="{C3BEE06E-7F95-48C3-9611-99BE37F5BA7D}" />
+						<Child Name="buttonLogIn" Owner="{8BE29430-27DC-40B0-BAAA-1364181040CE}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageRegisterpatient" Owner="{3A9DA539-8F15-4820-924B-3C2B8A9DE754}">
+				<Child Name="textboxFamilyNameRequired" Owner="{34916DF8-4595-41C7-9FFE-540E70AB6E3B}" />
+				<Child Name="formRegistration" Owner="{A4FA1894-B457-4903-B578-96DAB963C4C2}">
+					<Child Name="textboxDay" Owner="{9A855CD0-880A-4B32-B6F9-53BD28A2AE8D}" />
+					<Child Name="selectMonth" Owner="{53131A2A-B4C1-4581-92B4-19AD80F37354}" />
+					<Child Name="textboxGivenRequired" Owner="{AF618EE0-CDD6-46B7-AF72-3AC6C5205F71}" />
+					<Child Name="textboxYear" Owner="{F304BE5A-34C4-4CEA-BD1D-F3EF8FC146DC}" />
+					<Child Name="selectRequired" Owner="{7D5C718E-ADFC-49C6-8F03-B01D2B533568}" />
+					<Child Name="submitbuttonConfirm" Owner="{0AFC1392-F9EE-491A-BAAA-118D343CCC5D}" />
+				</Child>
+			</Child>
+			<Child Name="pageHome" Owner="{73010FB6-605B-4564-9EE0-45FA8E06880A}">
+				<Child Name="buttonRegisterAPatient" Owner="{9DE3C490-4E85-42AD-8952-10A1F48B4B15}" />
+			</Child>
+			<Child Name="pageIndex" Owner="{102B8528-1757-4A48-A3C0-204E4F1C7966}" />
 		</Child>
 	</LogicalNodes>
 </Root>

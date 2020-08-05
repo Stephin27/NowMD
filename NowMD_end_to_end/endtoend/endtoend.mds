@@ -24,6 +24,9 @@
 						<ConnectionInfo FileName="..\..\..\..\patient.xlsx" Table="Sheet2$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380046003300460031004500430039004300320037003900320044004100460043003000330037004100380045003100440045003200370041004200340030003400310043003600430037003700360044004400370042003000" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
