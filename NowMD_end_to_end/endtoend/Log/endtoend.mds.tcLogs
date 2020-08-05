@@ -113,11 +113,20 @@
 			</Node>
 			<Node name="log idx=0010">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44048.5255206944"/>
+				<Prp name="datetime" type="D" value="44048.5862398611"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{105FE814-C0AA-4059-A1BB-1CB2D76CD8A2}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC2]"/>
-				<Prp name="relpath" type="S" value="05-Aug-20_12_36 PM_44_988\Description.tcLog"/>
+				<Prp name="key" type="S" value="{763A0F86-C412-4EC1-934A-0D466F7BD84F}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC1]"/>
+				<Prp name="relpath" type="S" value="05-08-2020_14_04_11_124\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44048.5899318634"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B8FE6FD1-29B4-4471-BE49-F90B88E6F18E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC6]"/>
+				<Prp name="relpath" type="S" value="05-08-2020_14_09_30_113\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

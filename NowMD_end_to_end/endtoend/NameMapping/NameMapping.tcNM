@@ -490,6 +490,18 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="panelNoData" Key="{57B57E14-C1DF-4394-8DF1-4486BBB084E9}">
+												<Image FileName="388334341" Left="227" Top="100" Right="1231" Bottom="633" />
+												<TypeInfo Item0="{38364AE7-FE7C-4638-A78B-1AE9FDD36312}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="panelNoData" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="sbDelete" Key="{31B3BEC7-91A3-4ED7-9B53-44F410A5F901}">
@@ -1235,6 +1247,7 @@
 						<Child Name="edFind" Owner="{403B07F4-13FB-4F4B-B1E8-910BB9FEF849}" />
 						<Child Name="btnFind" Owner="{97843DE5-08B7-4D39-92A2-86797F852893}" />
 					</Child>
+					<Child Name="panelNoData" Owner="{57B57E14-C1DF-4394-8DF1-4486BBB084E9}" />
 				</Child>
 				<Child Name="sbDelete" Owner="{31B3BEC7-91A3-4ED7-9B53-44F410A5F901}" />
 				<Child Name="sbNew" Owner="{BB8EFF0B-D6C1-432C-9E44-2E7E611304A8}" />
