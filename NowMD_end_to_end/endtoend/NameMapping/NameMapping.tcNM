@@ -144,6 +144,56 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="panelRight" Key="{6FC736FC-697D-46B8-BB97-12F5C31A85DA}">
+										<Image FileName="1139237360" Left="184" Top="23" Right="1366" Bottom="709" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelRight" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelButtons" Key="{6A74D56C-636F-4518-BA0D-2BF7DFBFCAB8}">
+												<Image FileName="1139237360" Left="184" Top="23" Right="1366" Bottom="71" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="panelButtons" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="edSearchAll" Key="{DE986D97-859B-4B2B-A24D-B6A9C4FCF9F9}">
+														<Image FileName="1139237360" Left="930" Top="45" Right="1015" Bottom="66" />
+														<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzEdit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="edSearchAll" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnSearchAll" Key="{DB5DB7C4-BC52-4FB4-B6DA-4C95B230418A}">
+														<Image FileName="1634564333" Left="1017" Top="44" Right="1080" Bottom="67" />
+														<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnSearchAll" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="formPatientEntry" Key="{99C882B5-4D63-4A0F-914D-9209D420937C}">
@@ -843,6 +893,44 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="formSearchAll" Key="{5C651ED4-2746-43F7-9A8D-4F3FC3F88535}">
+								<Image FileName="1939452999" Left="0" Top="0" Right="696" Bottom="458" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformSearchAll" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formSearchAll" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="RzPanel1" Key="{2A791646-4A8B-4338-AFCB-2969983B131E}">
+										<Image FileName="1939452999" Left="542" Top="31" Right="688" Bottom="450" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="RzPanel1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnGoToOverview" Key="{9999F4AF-767D-4BF3-A4C2-27DA8F593420}">
+												<Image FileName="1939452999" Left="550" Top="284" Right="681" Bottom="309" />
+												<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzBitBtn" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="btnGoToOverview" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{33D1ECF6-84AD-4D13-AD2F-6DAEB990D99D}">
@@ -1196,6 +1284,12 @@
 						<Child Name="Print" Owner="{3E8A9BF4-6DEE-47CE-9D6A-0B467160A63B}" />
 					</Child>
 				</Child>
+				<Child Name="panelRight" Owner="{6FC736FC-697D-46B8-BB97-12F5C31A85DA}">
+					<Child Name="panelButtons" Owner="{6A74D56C-636F-4518-BA0D-2BF7DFBFCAB8}">
+						<Child Name="edSearchAll" Owner="{DE986D97-859B-4B2B-A24D-B6A9C4FCF9F9}" />
+						<Child Name="btnSearchAll" Owner="{DB5DB7C4-BC52-4FB4-B6DA-4C95B230418A}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="formPatientEntry" Owner="{99C882B5-4D63-4A0F-914D-9209D420937C}">
 				<Child Name="panelFields" Owner="{D1A88462-6A44-4FD8-B982-FA722D1FBC69}">
@@ -1274,6 +1368,11 @@
 				<Child Name="panelButtons" Owner="{3D3EEF74-DDD6-4263-B37E-CAFDD5C3A3D0}">
 					<Child Name="btnClose" Owner="{24E621CC-D3F1-43C9-801A-D9B4981950C4}" />
 					<Child Name="btnSelectName" Owner="{0975EA66-70FB-4FBF-B158-4B84C1AC5106}" />
+				</Child>
+			</Child>
+			<Child Name="formSearchAll" Owner="{5C651ED4-2746-43F7-9A8D-4F3FC3F88535}">
+				<Child Name="RzPanel1" Owner="{2A791646-4A8B-4338-AFCB-2969983B131E}">
+					<Child Name="btnGoToOverview" Owner="{9999F4AF-767D-4BF3-A4C2-27DA8F593420}" />
 				</Child>
 			</Child>
 		</Child>
