@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{0BF4F5A8-2F4E-4A26-BABD-27166B5A9F59}" />
+	<data key="{0BF4F5A8-2F4E-4A26-BABD-27166B5A9F59}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44048.3070601852" objectName="Aliases.NowMDdemo.formMain.panelRight.panelButtons.edSearchAll" objectLeft="930" objectTop="45" objectRight="1015" objectBottom="66" clickPointX="967" clickPointY="51" imageFileName="tcvi695284968154240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44048.3070833333" objectName="Aliases.NowMDdemo.formMain.panelRight.panelButtons.edSearchAll" objectLeft="930" objectTop="45" objectRight="1015" objectBottom="66" clickPointX="-1" clickPointY="-1" imageFileName="tcvi695287187154243.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44048.3072222222" objectName="Aliases.NowMDdemo.formMain.panelRight.panelButtons.btnSearchAll" objectLeft="1017" objectTop="44" objectRight="1080" objectBottom="67" clickPointX="1023" clickPointY="54" imageFileName="tcvi695299453154244.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44048.3072685185" objectName="Aliases.NowMDdemo.formSearchAll.RzPanel1.btnGoToOverview" objectLeft="556" objectTop="291" objectRight="668" objectBottom="302" clickPointX="568" clickPointY="293" imageFileName="tcvi695302828154249.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
