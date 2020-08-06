@@ -145,7 +145,6 @@
 										</Children>
 									</Child>
 									<Child Name="panelRight" Key="{6FC736FC-697D-46B8-BB97-12F5C31A85DA}">
-										<Image FileName="1139237360" Left="184" Top="23" Right="1366" Bottom="709" />
 										<Properties>
 											<Property Name="ClassName">
 												<Value Value="TRzPanel" />
@@ -156,7 +155,6 @@
 										</Properties>
 										<Children>
 											<Child Name="panelButtons" Key="{6A74D56C-636F-4518-BA0D-2BF7DFBFCAB8}">
-												<Image FileName="1139237360" Left="184" Top="23" Right="1366" Bottom="71" />
 												<Properties>
 													<Property Name="ClassName">
 														<Value Value="TRzPanel" />
@@ -167,7 +165,6 @@
 												</Properties>
 												<Children>
 													<Child Name="edSearchAll" Key="{DE986D97-859B-4B2B-A24D-B6A9C4FCF9F9}">
-														<Image FileName="1139237360" Left="930" Top="45" Right="1015" Bottom="66" />
 														<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
 														<Properties>
 															<Property Name="ClassName">
@@ -179,7 +176,6 @@
 														</Properties>
 													</Child>
 													<Child Name="btnSearchAll" Key="{DB5DB7C4-BC52-4FB4-B6DA-4C95B230418A}">
-														<Image FileName="1634564333" Left="1017" Top="44" Right="1080" Bottom="67" />
 														<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
 														<Properties>
 															<Property Name="ClassName">
@@ -189,6 +185,160 @@
 																<Value Value="btnSearchAll" />
 															</Property>
 														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="formHomePage" Key="{71E714CD-9272-4ED1-88AC-2B80AE37F20E}">
+												<Image FileName="1099310613" Left="192" Top="79" Right="1374" Bottom="717" />
+												<TypeInfo Item0="{A18EBDEE-D1B1-4A97-9260-D6C733E91E06}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TformHomePage" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="formHomePage" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="PageBrowser" Key="{8950A371-BBCE-42C0-AFA9-C9DCFAA67FAA}">
+														<Image FileName="1099310613" Left="192" Top="79" Right="1137" Bottom="717" />
+														<TypeInfo Item0="{BDCF5193-7FC0-4FEF-B1AC-DD438A7FAC84}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TWebBrowser" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="PageBrowser" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellDocObjectView" Key="{0CC61275-EE41-4F85-935D-887D74D771A7}">
+																<Image FileName="1099310613" Left="192" Top="79" Right="1137" Bottom="717" />
+																<TypeInfo Item0="{A348A350-DD35-44C1-BF50-15211CAF3D23}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="Shell DocObject View" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="browser" Key="{B46FDF4D-31C8-4010-BBFA-E800A420EF2D}">
+																		<Image FileName="1099310613" Left="192" Top="79" Right="1137" Bottom="717" />
+																		<TypeInfo Item0="{BDE2E563-0D95-4D04-892D-24F36842D536}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Internet Explorer_Server" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="pageNowmdIsANewWayToLookAtHe" Key="{1D54A356-23A2-44AC-91FF-C24B21270A07}">
+																				<Image FileName="1099310613" Left="192" Top="79" Right="1137" Bottom="717" />
+																				<TypeInfo Item0="{03633479-066C-43C6-8B77-CD7A0D8A4534}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Page" />
+																					</Property>
+																					<Property Name="URL">
+																						<Value Value="https://www.nowmd.com/download/homecenter/HomePageFromWebDemo.htm" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="imageNowmdlogoforhomecenterJpg" Key="{0BE4E797-7309-44F6-B44D-CFD7DAA929E5}" ExtendedFind="True">
+																						<Image FileName="1099310613" Left="676" Top="586" Right="876" Bottom="647" />
+																						<TypeInfo Item0="{4021982B-D656-4431-BCC5-A53F17A53F7B}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Image" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="nowmdlogoforhomecenter_jpg" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="imageHomecenterbannerJpg" Key="{EDFFE914-5853-415B-B321-2BFD447C1A76}" ExtendedFind="True">
+																						<Image FileName="729852271" Left="494" Top="96" Right="1105" Bottom="260" />
+																						<TypeInfo Item0="{4021982B-D656-4431-BCC5-A53F17A53F7B}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Image" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="homecenterbanner_jpg" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="textnode" Key="{7C5445B0-A48F-4B20-91D5-DDB963A60825}" ExtendedFind="True">
+																						<Image FileName="399215566" Left="208" Top="271" Right="611" Bottom="335" />
+																						<TypeInfo Item0="{3F9368F8-0237-45BB-81DB-58EFADB74A17}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="TextNode" />
+																							</Property>
+																							<Property Name="contentText">
+																								<Value Value="4E006F0077004D0044000A00690073002000610020006E00650077002000770061007900200074006F0020006C006F006F006B0020006100740020006800650061006C007400680063006100720065002000620069006C006C0069006E006700210020004900740073002000640065007300690067006E0020006D0061006B006500730020006900740020006500610073007900200074006F002000660069006E0064002000740068006500200069006E0066006F0072006D006100740069006F006E00200079006F00750027007200650020006C006F006F006B0069006E006700200066006F0072002C00200071007500690063006B006C007900200063006F006D0070006C006500740065002000620069006C006C0069006E006700200061006E006400200063006F006C006C0065006300740020006D006F007200650020006F006600200074006800650020006D006F006E006500790020006500610072006E0065006400200062007900200061002000700072006100630074006900630065002E00" Type="7" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelNewsFeed" Key="{240237BA-8CB4-4D83-936C-CDA290345A87}">
+														<Image FileName="399215566" Left="1137" Top="79" Right="1374" Bottom="717" />
+														<TypeInfo Item0="{38364AE7-FE7C-4638-A78B-1AE9FDD36312}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzPanel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="panelNewsFeed" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ScrollBoxFeed" Key="{75001E47-9030-4192-9051-15EA275FAFE7}">
+																<Image FileName="399215566" Left="1137" Top="111" Right="1374" Bottom="717" />
+																<TypeInfo Item0="{BDCF5193-7FC0-4FEF-B1AC-DD438A7FAC84}" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value Value="TScrollBox" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="ScrollBoxFeed" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelChargesTrend" Key="{9F80FD1C-9DF4-4282-8708-9E4F04672FC0}">
+																		<Image FileName="399215566" Left="1137" Top="430" Right="1357" Bottom="554" />
+																		<TypeInfo Item0="{38364AE7-FE7C-4638-A78B-1AE9FDD36312}" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value Value="TRzPanel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="panelChargesTrend" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ChartChargesTrend" Key="{DC114B5A-5C35-46F1-AA46-BCE835B992EF}">
+																				<Image FileName="399215566" Left="1137" Top="453" Right="1357" Bottom="553" />
+																				<TypeInfo Item0="{BDCF5193-7FC0-4FEF-B1AC-DD438A7FAC84}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TChart" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="ChartChargesTrend" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
 													</Child>
 												</Children>
 											</Child>
@@ -539,6 +689,17 @@
 														</Properties>
 													</Child>
 												</Children>
+											</Child>
+											<Child Name="panelNoData" Key="{57B57E14-C1DF-4394-8DF1-4486BBB084E9}">
+												<TypeInfo Item0="{38364AE7-FE7C-4638-A78B-1AE9FDD36312}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="panelNoData" />
+													</Property>
+												</Properties>
 											</Child>
 										</Children>
 									</Child>
@@ -894,7 +1055,6 @@
 								</Children>
 							</Child>
 							<Child Name="formSearchAll" Key="{5C651ED4-2746-43F7-9A8D-4F3FC3F88535}">
-								<Image FileName="1939452999" Left="0" Top="0" Right="696" Bottom="458" />
 								<Properties>
 									<Property Name="ClassName">
 										<Value Value="TformSearchAll" />
@@ -905,7 +1065,6 @@
 								</Properties>
 								<Children>
 									<Child Name="RzPanel1" Key="{2A791646-4A8B-4338-AFCB-2969983B131E}">
-										<Image FileName="1939452999" Left="542" Top="31" Right="688" Bottom="450" />
 										<Properties>
 											<Property Name="ClassName">
 												<Value Value="TRzPanel" />
@@ -916,7 +1075,6 @@
 										</Properties>
 										<Children>
 											<Child Name="btnGoToOverview" Key="{9999F4AF-767D-4BF3-A4C2-27DA8F593420}">
-												<Image FileName="1939452999" Left="550" Top="284" Right="681" Bottom="309" />
 												<TypeInfo Item0="{410BB64B-C71C-42FC-A95E-3DD7599B0979}" />
 												<Properties>
 													<Property Name="ClassName">
@@ -1289,6 +1447,26 @@
 						<Child Name="edSearchAll" Owner="{DE986D97-859B-4B2B-A24D-B6A9C4FCF9F9}" />
 						<Child Name="btnSearchAll" Owner="{DB5DB7C4-BC52-4FB4-B6DA-4C95B230418A}" />
 					</Child>
+					<Child Name="formHomePage" Owner="{71E714CD-9272-4ED1-88AC-2B80AE37F20E}">
+						<Child Name="PageBrowser" Owner="{8950A371-BBCE-42C0-AFA9-C9DCFAA67FAA}">
+							<Child Name="ShellDocObjectView" Owner="{0CC61275-EE41-4F85-935D-887D74D771A7}">
+								<Child Name="browser" Owner="{B46FDF4D-31C8-4010-BBFA-E800A420EF2D}">
+									<Child Name="pageNowmdIsANewWayToLookAtHe" Owner="{1D54A356-23A2-44AC-91FF-C24B21270A07}">
+										<Child Name="imageNowmdlogoforhomecenterJpg" Owner="{0BE4E797-7309-44F6-B44D-CFD7DAA929E5}" />
+										<Child Name="imageHomecenterbannerJpg" Owner="{EDFFE914-5853-415B-B321-2BFD447C1A76}" />
+										<Child Name="textnode" Owner="{7C5445B0-A48F-4B20-91D5-DDB963A60825}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="panelNewsFeed" Owner="{240237BA-8CB4-4D83-936C-CDA290345A87}">
+							<Child Name="ScrollBoxFeed" Owner="{75001E47-9030-4192-9051-15EA275FAFE7}">
+								<Child Name="panelChargesTrend" Owner="{9F80FD1C-9DF4-4282-8708-9E4F04672FC0}">
+									<Child Name="ChartChargesTrend" Owner="{DC114B5A-5C35-46F1-AA46-BCE835B992EF}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="formPatientEntry" Owner="{99C882B5-4D63-4A0F-914D-9209D420937C}">
@@ -1329,6 +1507,7 @@
 						<Child Name="edFind" Owner="{403B07F4-13FB-4F4B-B1E8-910BB9FEF849}" />
 						<Child Name="btnFind" Owner="{97843DE5-08B7-4D39-92A2-86797F852893}" />
 					</Child>
+					<Child Name="panelNoData" Owner="{57B57E14-C1DF-4394-8DF1-4486BBB084E9}" />
 				</Child>
 				<Child Name="sbDelete" Owner="{31B3BEC7-91A3-4ED7-9B53-44F410A5F901}" />
 				<Child Name="sbNew" Owner="{BB8EFF0B-D6C1-432C-9E44-2E7E611304A8}" />

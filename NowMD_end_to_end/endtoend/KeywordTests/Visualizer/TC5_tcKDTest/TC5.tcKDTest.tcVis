@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8FB8EC6B-7408-435A-A7BD-2F544B79113D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44049.5035416667" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName" objectLeft="653" objectTop="345" objectRight="774" objectBottom="366" clickPointX="-1" clickPointY="-1" imageFileName="tcvi79865904687280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44049.5035763889" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword" objectLeft="653" objectTop="373" objectRight="774" objectBottom="394" clickPointX="-1" clickPointY="-1" imageFileName="tcvi79866170387281.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

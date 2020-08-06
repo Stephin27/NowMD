@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="NowMD_PNG" key="{0BAC27CD-B9AD-4DF3-8972-8C4A77C752B9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="NowMD_PNG" ID="{0BAC27CD-B9AD-4DF3-8972-8C4A77C752B9}" FileName="Regions\NowMD.PNG" Update="False" />
+		</child>
+		<child name="imageNowmdlogoforhomecenterJpg" key="{E1DEED5F-DEA8-4A4C-97F1-13878FDA859C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="imageNowmdlogoforhomecenterJpg" ID="{E1DEED5F-DEA8-4A4C-97F1-13878FDA859C}" FileName="Regions\imageNowmdlogoforhomecenterJpg.png" Update="False" />
+		</child>
+		<child name="imageHomecenterbannerJpg" key="{6C4CE874-2489-4A0A-8A1F-389C319591D8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="imageHomecenterbannerJpg" ID="{6C4CE874-2489-4A0A-8A1F-389C319591D8}" FileName="Regions\imageHomecenterbannerJpg.png" Update="False" />
+		</child>
+	</children>
+</Root>
